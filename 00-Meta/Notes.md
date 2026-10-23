@@ -36,7 +36,7 @@ UNION ALL SELECT 1,2,3,4,5,6,7,8,schema_name from INFORMATION_SCHEMA.SCHEMATA-- 
 sqlmap -u "http://www.example.com/?id=1" --file-read "/var/www/html/flag.txt"
 ```
 
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261022085625.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261022085625.png)
 
 
 ```javascript

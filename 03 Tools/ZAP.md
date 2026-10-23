@@ -15,7 +15,7 @@ aliases: [OWASP ZAP, zap]
 
 ### Turn On and Off
 In ZAP, interception is off by default, as shown by the green button on the top bar (green indicates that requests can pass and not be intercepted).
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261013085904.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261013085904.png)
 
 ## HUD 
 ZAP also has a powerful feature called `Heads Up Display (HUD)`, which allows us to control most of the main ZAP features from right within the pre-configured browser. We can enable the `HUD` by clicking its button at the end of the top menu bar:
@@ -28,14 +28,14 @@ ZAP also has a powerful feature called `Heads Up Display (HUD)`, which allows us
 ### Fuzzing Cookie-Credentials
 In this example we will `fuzz` the guest-cookie, decode it and fuzz for other users:
 1. Click through to the desired Request, then right click and choose `fuzz..` (not visible in the example):
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261013124318.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261013124318.png)
 2. Than add the desired `fuzzing-list` in this case "top-usernames-shortlist.txt" from seclists via `Payloads.../Add.../Add`:
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261013130418.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261013130418.png)
 3. Now select the chosen list, select `Processors..` and chose the Type of encoding (in this example MD5). We can also check the results with `Generate Preview`:
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261013130529.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261013130529.png)
 
 4. Than start fuzzer with `Fuzz` and check `Size Resp. Body` for differentiating values  (as in our case "450", which was successful):
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261013131137.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261013131137.png)
 # How to Setup 
 
 ## Install CA Certificate

@@ -15,12 +15,12 @@ aliases: [Burp Suite, burp]
 ## Intercepting Requests
 
 ### Turn On and Off
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261013085806.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261013085806.png)
 
 ## Responder
 ### Turn On and Off
 `Intercept responses based on the following rules:`
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261013100039.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261013100039.png)
 # How to Setup 
 
 ## Install CA Certificate

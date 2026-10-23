@@ -8,7 +8,7 @@ tags:
 
 ## Commands
 One of the best and easiest ways to properly set up an SQLMap request against the specific target (i.e., web request with parameters inside) is by utilizing `Copy as cURL` feature from within the Network (Monitor) panel inside the Chrome, Edge, or Firefox Developer Tools:
-![](00-Meta/Objects/Pictures/Pasted%20image%2020261021083532.png)
+![](/00-Meta/Objects/Pictures/Pasted%20image%2020261021083532.png)
 By pasting the clipboard content (`Ctrl-V`) into the command line, and changing the original command `curl` to `sqlmap`, we are able to use SQLMap with the identical `curl` command.
 
 #### Default scan
