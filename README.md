@@ -8,7 +8,7 @@ Welcome to my personal cybersecurity knowledge base. This repository serves as a
 > **🌐 How to View this Documentation:**
 > Since GitHub cannot display internal Obsidian links (“`![[LINK#Object]]`”), I used the open-source project [Quartz](https://quartz.jzhao.xyz/) to create a rendered website where you can view them properly:
 > 
-> **[https://br33zy-ch33zy.github.io/Knowledgebase-Quartz/](https://br33zy-ch33zy.github.io/Knowledgebase-Quartz/)**
+> **[https://br33zy-ch33zy.github.io/KB-Quartz/](https://br33zy-ch33zy.github.io/KB-Quartz/)**
 > 
 > The other option would be to clone the Git repository and browse it natively using [Obsidian](https://obsidian.md/).
 
